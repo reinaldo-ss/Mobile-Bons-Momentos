@@ -4,18 +4,18 @@ Sistema completo desenvolvido para a confeitaria **Bons Momentos**, composto por
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Backend / Banco de Dados**: Supabase (PostgreSQL)[cite: 1, 4]
+* **Backend / Banco de Dados**: Supabase (PostgreSQL)
 * **Aplicativo Mobile (Entregador)**: Kotlin, Android SDK, ViewBinding, Room Database, Retrofit, Coroutines
 
 ---
 
 ## 📱 Módulo Mobile (App do Entregador)
 
-O aplicativo dos entregadores permite o login seguro por **CPF e senha**, listagem de pedidos designados (`Saiu para entrega`), consulta offline com persistência local e sincronização automática de entregas concluídas[cite: 1, 4, 33].
+O aplicativo dos entregadores permite o login seguro por **CPF e senha**, listagem de pedidos designados (`Saiu para entrega`).
 
 ### ⚙️ Configuração e Execução para Desenvolvimento
 
-Para rodar o projeto na sua máquina, é necessário configurar as credenciais do seu próprio banco de dados Supabase de forma segura através do arquivo `local.properties` (que é ignorado pelo Git e nunca será exposto no repositório)[cite: 1, 6].
+Para rodar o projeto na sua máquina, é necessário configurar as credenciais do seu próprio banco de dados Supabase de forma segura através do arquivo `local.properties` (que é ignorado pelo Git e nunca será exposto no repositório).
 
 1. **Clone o repositório:**
    ```bash
