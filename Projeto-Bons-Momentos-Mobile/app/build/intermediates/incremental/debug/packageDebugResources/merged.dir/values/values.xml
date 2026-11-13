@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bm_branco">#FFFFFF</color>
+    <color name="bm_creme">#F7E8CC</color>
+    <color name="bm_creme_claro">#FBF3E4</color>
+    <color name="bm_input_bg">#F9F4EE</color>
+    <color name="bm_input_borda">#E8DCD0</color>
+    <color name="bm_marrom_escuro">#5B3A21</color>
+    <color name="bm_marrom_medio">#8A6952</color>
+    <color name="bm_placeholder">#B7A493</color>
+    <color name="bm_rosa_suave">#F1D9CE</color>
+    <color name="bm_terracota">#C97B63</color>
+    <color name="bm_terracota_escuro">#A85F49</color>
+    <color name="bm_texto_detalhe">#334155</color>
+    <color name="bm_verde">#27AE60</color>
+    <color name="bm_verde_escuro">#1F8B4C</color>
+    <color name="bm_vermelho">#C0392B</color>
+    <color name="bm_vermelho_escuro">#922B1F</color>
+    <string name="app_name">Bons Momentos</string>
+    <style name="Theme.BonsMomentos" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/bm_terracota</item>
+        <item name="colorPrimaryDark">@color/bm_terracota_escuro</item>
+        <item name="colorOnPrimary">@color/bm_branco</item>
+        <item name="android:windowBackground">@color/bm_branco</item>
+        <item name="android:statusBarColor">@color/bm_branco</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/bm_branco</item>
+    </style>
+</resources>

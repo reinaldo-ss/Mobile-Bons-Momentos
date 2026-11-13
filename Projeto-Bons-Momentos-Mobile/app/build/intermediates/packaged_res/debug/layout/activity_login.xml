@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bm_branco"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="40dp">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="Logo Bons Momentos"
+            android:src="@drawable/logo_bons_momentos" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="Bem vindo Entregador(a)"
+            android:textColor="@color/bm_marrom_escuro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="username"
+            android:background="@drawable/bg_input"
+            android:digits="0123456789.-"
+            android:hint="CPF"
+            android:inputType="number"
+            android:maxLength="14"
+            android:maxLines="1"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="14dp"
+            android:textColor="@color/bm_marrom_escuro"
+            android:textColorHint="@color/bm_placeholder"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints="password"
+            android:background="@drawable/bg_input"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="14dp"
+            android:textColor="@color/bm_marrom_escuro"
+            android:textColorHint="@color/bm_placeholder"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvErro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:textColor="@color/bm_terracota_escuro"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/bg_btn_entrar"
+            android:padding="14dp"
+            android:stateListAnimator="@null"
+            android:text="Entrar"
+            android:textAllCaps="false"
+            android:textColor="@color/bm_branco"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

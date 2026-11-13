@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.bonsmomentos.entregador.app-mergeDebugResources-45:/layout/activity_login.xml",
+        "source": "com.bonsmomentos.entregador.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-mergeDebugResources-45:/layout/item_pedido.xml",
+        "source": "com.bonsmomentos.entregador.app-main-48:/layout/item_pedido.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.bonsmomentos.entregador.app-main-48:/layout/activity_main.xml"
+    }
+]

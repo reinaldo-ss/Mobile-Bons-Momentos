@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/drawable_bg_btn_entrar.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/drawable/bg_btn_entrar.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/drawable_ic_chevron_down.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/drawable/ic_chevron_down.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/drawable_bg_btn_sair.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/drawable/bg_btn_sair.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/layout_item_pedido.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/layout/item_pedido.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/drawable-nodpi_ic_launcher_foreground.png.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/drawable-nodpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/drawable_bg_input.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/drawable_bg_btn_concluir.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/drawable/bg_btn_concluir.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/layout_activity_login.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bonsmomentos.entregador.app-merged_res-46:/drawable-nodpi_logo_bons_momentos.png.flat",
+        "source": "com.bonsmomentos.entregador.app-main-48:/drawable-nodpi/logo_bons_momentos.png"
+    }
+]

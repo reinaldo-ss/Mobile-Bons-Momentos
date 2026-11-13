@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/bm_branco"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="3dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Topo do acordeão: título + seta -->
+        <LinearLayout
+            android:id="@+id/llTopo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="18dp">
+
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/bm_marrom_escuro"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivSeta"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:contentDescription="Mostrar ou ocultar detalhes"
+                android:src="@drawable/ic_chevron_down" />
+        </LinearLayout>
+
+        <!-- Detalhes (aparecem ao tocar no topo) -->
+        <LinearLayout
+            android:id="@+id/llDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="18dp"
+            android:paddingBottom="18dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingMultiplier="1.15"
+                android:textColor="@color/bm_texto_detalhe"
+                android:textSize="13.5sp" />
+
+            <TextView
+                android:id="@+id/tvPagamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingMultiplier="1.15"
+                android:textColor="@color/bm_texto_detalhe"
+                android:textSize="13.5sp" />
+
+            <TextView
+                android:id="@+id/tvCep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingMultiplier="1.15"
+                android:textColor="@color/bm_texto_detalhe"
+                android:textSize="13.5sp" />
+
+            <TextView
+                android:id="@+id/tvEndereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingMultiplier="1.15"
+                android:textColor="@color/bm_texto_detalhe"
+                android:textSize="13.5sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnConcluir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_btn_concluir"
+                android:padding="12dp"
+                android:stateListAnimator="@null"
+                android:text="Concluir"
+                android:textAllCaps="false"
+                android:textColor="@color/bm_branco"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
