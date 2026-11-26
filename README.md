@@ -1,22 +1,21 @@
-# 🍰 Bons Momentos — Sistema de Confeitaria & Gestão
+# 📱 Bons Momentos — Mobile
 
-Sistema completo desenvolvido para a confeitaria **Bons Momentos**, composto por catálogo virtual, painel administrativo, controle de pedidos em tempo real, painel da cozinha (Kanban) e aplicativo mobile para entregadores.
-
-## 🚀 Tecnologias Utilizadas
-
-* **Backend / Banco de Dados**: Supabase (PostgreSQL)
-* **Aplicativo Mobile (Entregador)**: Kotlin, Android SDK, ViewBinding, Room Database, Retrofit, Coroutines
+Repositório contendo as aplicações mobile do ecossistema **Bons Momentos** (sistema de gestão e entregas de confeitaria), organizadas em duas implementações distintas para Android: uma desenvolvida em **Java** e outra em **Kotlin** com integração ao **Supabase**.
 
 ---
 
-## 📱 Módulo Mobile (App do Entregador)
+## 📂 Estrutura do Repositório
 
-O aplicativo dos entregadores permite o login seguro por **CPF e senha**, listagem de pedidos designados (`Saiu para entrega`).
+O projeto está dividido em dois diretórios principais, contendo tanto o código-fonte compactado quanto os instaladores (`.apk`) prontos para teste em dispositivos Android:
 
-### ⚙️ Configuração e Execução para Desenvolvimento
-
-Para rodar o projeto na sua máquina, é necessário configurar as credenciais do seu próprio banco de dados Supabase de forma segura através do arquivo `local.properties` (que é ignorado pelo Git e nunca será exposto no repositório).
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/reinaldo-ss/Projeto-PIM-BIM2-2026.git](https://github.com/reinaldo-ss/Projeto-PIM-BIM2-2026.git)
+```text
+Mobile-Bons-Momentos-main/
+├── Projeto em Java/
+│   ├── Bons-Momentos-Java.zip          # Código-fonte do projeto Android em Java
+│   └── bons-momentos.apk               # Instalador compilado (Versão Java)
+│
+├── Projeto em Kotlin/
+│   ├── Projeto-Bons-Momentos-Mobile.rar # Código-fonte do projeto Android em Kotlin
+│   └── app-bons-momento.apk             # Instalador compilado (Versão Kotlin)
+│
+└── README.md
